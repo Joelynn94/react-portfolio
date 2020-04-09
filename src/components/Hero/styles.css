@@ -1,0 +1,39 @@
+.hero {
+  position: relative;
+  min-height: 50vh;
+  background-color: #2A2A2E;
+  padding: 5rem;
+  display: grid;
+}
+
+.hero-heading {
+  align-self: center;
+  margin: 0;
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+
+.hero-subheading {
+  align-self: center;
+  justify-self: center;
+  max-width: 600px;
+  color: #a4acc4;
+  font-size: 1.15rem;
+  line-height: 1.75rem;
+  margin: 0;
+}
+
+.hero-social {
+  align-self: center;
+}
+
+.hero-social_link {
+  padding: .5rem;
+  font-size: 25px;
+}
+
+.accent-text {
+  color: #FF274E;
+}
+
+

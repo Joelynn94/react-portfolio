@@ -1,0 +1,9 @@
+footer {
+  margin-top: 100%;
+  background-color: #2A2A2E;
+  color: white;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}

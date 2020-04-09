@@ -15,21 +15,19 @@ function Navbar() {
         <div className="navbar-list">
           <ul className="navbar-ul">
             <li className="navbar-item">
-              <i className="fal fa-home-alt"></i>
+              
               <Link className="navbar-link" to="/">
-                Home
+              <i className="fal fa-home-alt"></i> Home
               </Link>
             </li>
             <li className="navbar-item">
-              <i className="fal fa-briefcase"></i>
               <Link className="navbar-link" to="/portfolio">
-                Portfolio
+              <i className="fal fa-briefcase"></i> Portfolio
               </Link>
             </li>
             <li className="navbar-item">
-              <i className="fal fa-address-card"></i>
               <Link className="navbar-link" to="/contact">
-                Contact
+              <i className="fal fa-address-card"></i> Contact
               </Link>
             </li>
           </ul>
