@@ -27,14 +27,14 @@ function Hero() {
           target="_blank" 
           rel="noopener noreferrer"
           className="hero-social_link">
-          <i className="fas fa-phone-square-alt"></i>
+          <i className="fal fa-phone-square-alt"></i>
         </a>
         <a 
           href="mailto: josephlynn94@gmail.com" 
           target="_blank" 
           rel="noopener noreferrer"
           className="hero-social_link">
-          <i className="fas fa-envelope"></i>
+          <i className="fal fa-envelope"></i>
         </a>
         <a 
           href="./assets/Joseph Lynn - Resume.pdf" 
@@ -42,7 +42,7 @@ function Hero() {
           rel="noopener noreferrer"
           className="hero-social_link" 
           download>
-          <i className="fas fa-file"></i>
+          <i className="fal fa-file-pdf"></i>
         </a> 
       </div>
     </section>

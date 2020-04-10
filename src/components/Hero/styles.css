@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   min-height: 50vh;
-  background-color: #2A2A2E;
+  background-color: #1F2833;
   padding: 5rem;
   display: grid;
 }
@@ -29,11 +29,11 @@
 
 .hero-social_link {
   padding: .5rem;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 .accent-text {
-  color: #FF274E;
+  color: #45A29E;
 }
 
 
