@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import './styles.css'
 
 function Hero() {
@@ -45,6 +46,17 @@ function Hero() {
           <i className="fal fa-file-pdf"></i>
         </a> 
       </div>
+
+      <div className="hero-buttons">
+        <Link className="" to="/portfolio">
+          <button className="btn btn-primary hero-btn ">View Portfolio</button>
+        </Link>
+
+        <Link className="" to="/contact">
+          <button className="btn btn-secondary hero-btn">Contact Me</button>
+        </Link>
+      </div>
+
     </section>
   )
 }

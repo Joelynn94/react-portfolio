@@ -15,7 +15,6 @@ function Navbar() {
         <div className="navbar-list">
           <ul className="navbar-ul">
             <li className="navbar-item">
-              
               <Link className="navbar-link" to="/">
               <i className="fal fa-home-alt"></i> Home
               </Link>

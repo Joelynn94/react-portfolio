@@ -14,17 +14,19 @@
 }
 
 .hero-subheading {
+  margin: 1rem;
   align-self: center;
   justify-self: center;
   max-width: 600px;
   color: #a4acc4;
   font-size: 1.15rem;
   line-height: 1.75rem;
-  margin: 0;
 }
 
 .hero-social {
+  margin: 1rem;
   align-self: center;
+  width: 100%;
 }
 
 .hero-social_link {
@@ -36,4 +38,43 @@
   color: #45A29E;
 }
 
+.btn {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  width: 100%;
+  max-width: 12rem;
+  opacity: 0.8;
+  cursor: pointer;
+  text-transform: uppercase;
+  line-height: 2.8;
+  padding: 1rem;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1),0 4px 8px rgba(0,0,0,.3);
+}
 
+.btn-primary {
+  background-color: #45A29E;
+}
+
+.btn-secondary {
+  background-color: #2A7A77;
+}
+
+.hero-buttons {
+  margin: 1rem;
+  align-self: center;
+}
+
+.hero-btn {
+  margin: .75rem .5rem;
+}
+
+@media only screen and (min-width: 40rem) {
+  .btn {
+    padding: .5rem 1rem;
+    width: 40%;
+  }
+}
