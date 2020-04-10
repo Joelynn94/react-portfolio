@@ -49,7 +49,7 @@ function Hero() {
 
       <div className="hero-buttons">
         <Link className="" to="/portfolio">
-          <button className="btn btn-primary hero-btn ">View Portfolio</button>
+          <button className="btn btn-primary hero-btn">View Portfolio</button>
         </Link>
 
         <Link className="" to="/contact">

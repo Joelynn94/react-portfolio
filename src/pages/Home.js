@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Hero from '../components/Hero'
+import About from '../components/About'
 
 function Home() {
   return (
-    <div>
-      
-    </div>
+    <Fragment>
+      <Hero />
+      <About />
+    </Fragment>
   )
 }
 

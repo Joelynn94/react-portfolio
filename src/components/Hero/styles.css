@@ -38,31 +38,6 @@
   color: #45A29E;
 }
 
-.btn {
-  margin-top: 2rem;
-  margin-bottom: 0;
-  width: 100%;
-  max-width: 12rem;
-  opacity: 0.8;
-  cursor: pointer;
-  text-transform: uppercase;
-  line-height: 2.8;
-  padding: 1rem;
-  outline: none;
-  border: 0;
-  border-radius: 5px;
-  color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0,0,0,.1),0 4px 8px rgba(0,0,0,.3);
-}
-
-.btn-primary {
-  background-color: #45A29E;
-}
-
-.btn-secondary {
-  background-color: #2A7A77;
-}
-
 .hero-buttons {
   margin: 1rem;
   align-self: center;

@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-inner">
         <div className="navbar-logo">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/about#hash">
             Joseph Lynn
           </Link>
         </div>
@@ -16,17 +16,22 @@ function Navbar() {
           <ul className="navbar-ul">
             <li className="navbar-item">
               <Link className="navbar-link" to="/">
-              <i className="fal fa-home-alt"></i> Home
+                Home
+              </Link>
+            </li>
+            <li className="navbar-item">
+              <Link className="navbar-link" to="/">
+                About
               </Link>
             </li>
             <li className="navbar-item">
               <Link className="navbar-link" to="/portfolio">
-              <i className="fal fa-briefcase"></i> Portfolio
+                Portfolio
               </Link>
             </li>
             <li className="navbar-item">
               <Link className="navbar-link" to="/contact">
-              <i className="fal fa-address-card"></i> Contact
+                Contact
               </Link>
             </li>
           </ul>
