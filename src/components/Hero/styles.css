@@ -10,7 +10,7 @@
   align-self: center;
   margin: 0;
   color: #ffffff;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .hero-subheading {
@@ -26,7 +26,6 @@
 .hero-social {
   margin: 1rem;
   align-self: center;
-  width: 100%;
 }
 
 .hero-social_link {
@@ -50,5 +49,9 @@
   .btn {
     padding: .5rem 1rem;
     width: 40%;
+  }
+
+  .hero-heading {
+    font-size: 2.5rem;
   }
 }

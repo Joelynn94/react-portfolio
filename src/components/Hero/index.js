@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section className="hero">
       <h1 className="hero-heading">Hi, I'm <span className="accent-text">Joseph Lynn</span></h1>
-      <p className="hero-subheading">I am a web developer based in Cleveland Ohio who enjoys building web applications. See my projects on Github, professional profile on LinkedIn, or download my resume.</p>
+      <p className="hero-subheading">I am a web developer based in Cleveland, Ohio who enjoys building web applications. See my projects on Github, professional profile on LinkedIn, or download my resume.</p>
 
       <div className="hero-social">
         <a 
