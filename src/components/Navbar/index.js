@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-inner">
         <div className="navbar-logo">
-          <Link className="navbar-brand" to="/about#hash">
+          <Link className="navbar-brand" to="/">
             Joseph Lynn
           </Link>
         </div>
