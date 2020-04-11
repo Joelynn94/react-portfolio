@@ -5,8 +5,7 @@
 }
 
 .card {
-  width: 23rem;
-  align-self: center;
+  width: 25rem;
   justify-self: center;
   display: grid;
   position: relative;
@@ -74,12 +73,12 @@
   }
 
   .card {
-    width: 23rem;
+    width: 25rem;
   }
 }
 
-@media only screen and (min-width: 80rem) {
+@media only screen and (min-width: 82rem) {
   .card {
-    width: 30rem;
+    width: 28rem;
   }
 }
