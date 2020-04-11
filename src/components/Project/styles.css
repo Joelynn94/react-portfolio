@@ -1,0 +1,85 @@
+.projects {
+  background-color: #F8FAFA;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.card {
+  width: 23rem;
+  align-self: center;
+  justify-self: center;
+  display: grid;
+  position: relative;
+  min-width: 10rem;
+  max-width: 30rem;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.card-img_container {
+  height: 20rem;
+  border-radius: 5px;
+}
+
+.card-img {
+  height: 20rem;
+  object-fit: cover;
+}
+
+.card-buttons {
+  border-top: 1px solid rgba(160,160,160,0.2);
+  position: relative;
+  padding: 1rem;
+  margin-top: 0;
+}
+
+.card-btn {
+  width: 40% !important;
+  margin: .25rem !important;
+  padding: 0 !important;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-skills {
+  opacity: .5;
+}
+
+.projects-container {
+  justify-self: center;
+  align-self: center;
+}
+
+@media only screen and (min-width: 52rem) {
+  .projects-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 62rem) {
+  .projects-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 75rem) {
+  .projects-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card {
+    width: 23rem;
+  }
+}
+
+@media only screen and (min-width: 80rem) {
+  .card {
+    width: 30rem;
+  }
+}
