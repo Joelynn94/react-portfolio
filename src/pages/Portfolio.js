@@ -5,6 +5,7 @@ import projects from '../projects.json'
 function Portfolio() {
   return (
     <section className="projects">
+      <h1 className="projects-heading">PORTFOLIO.</h1>
       <div className="grid-container projects-container">
         <Project 
           title={projects[0].title}

@@ -4,6 +4,14 @@
   padding-bottom: 4em;
 }
 
+.projects-heading {
+  font-size: 3.25em;
+  color: rgba(117, 121, 149, 0.5);
+  margin-top: 0;
+  margin-bottom: 4rem;
+  font-weight: 600;
+}
+
 .card {
   width: 25rem;
   justify-self: center;
@@ -49,6 +57,8 @@
 .card-skills {
   opacity: .5;
 }
+
+
 
 .projects-container {
   justify-self: center;
