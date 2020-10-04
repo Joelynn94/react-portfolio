@@ -10,13 +10,24 @@ body {
   min-height: 100%;
   display: grid;
   grid-template-rows: 1fr auto;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
 i {
   background-color: #fff;
   border-radius: 50%;
   padding: 0.75rem;
-  color: #45A29E;
+  color: #45a29e;
 }
 
 .container {
@@ -29,7 +40,7 @@ i {
 }
 
 .grid-container {
-    display: grid;
+  display: grid;
 }
 
 .App {
@@ -37,7 +48,7 @@ i {
 }
 
 .btn {
-  font-size: .85rem;
+  font-size: 0.85rem;
   margin-top: 2rem;
   margin-bottom: 0;
   width: 100%;
@@ -46,12 +57,12 @@ i {
   cursor: pointer;
   text-transform: uppercase;
   line-height: 2.8;
-  padding: 1rem;
+  padding: 0.65rem;
   outline: none;
   border: 0;
   border-radius: 5px;
   color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0,0,0,.1),0 4px 8px rgba(0,0,0,.3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .btn:hover {
@@ -59,15 +70,15 @@ i {
 }
 
 .btn-primary {
-  background-color: #45A29E;
+  background-color: #45a29e;
 }
 
 .btn-secondary {
-  background-color: #2A7A77;
+  background-color: #2a7a77;
 }
 
 a {
-  padding: 1rem .15rem;
+  padding: 1rem 0.15rem;
   text-decoration: none;
   color: #ffffff;
 }
@@ -75,4 +86,3 @@ a {
 img {
   width: 100%;
 }
-
