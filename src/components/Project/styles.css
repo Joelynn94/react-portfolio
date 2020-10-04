@@ -1,5 +1,5 @@
 .projects {
-  background-color: #F8FAFA;
+  background-color: #f8fafa;
   padding-top: 4em;
   padding-bottom: 4em;
 }
@@ -13,7 +13,7 @@
 }
 
 .card {
-  width: 22rem;
+  width: 100%;
   justify-self: center;
   display: grid;
   position: relative;
@@ -22,7 +22,7 @@
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0,0,0,.125);
+  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 5px;
   margin-bottom: 1rem;
 }
@@ -38,7 +38,7 @@
 }
 
 .card-buttons {
-  border-top: 1px solid rgba(160,160,160,0.2);
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
   position: relative;
   padding: 1rem;
   margin-top: 0;
@@ -46,7 +46,7 @@
 
 .card-btn {
   width: 40% !important;
-  margin: .25rem !important;
+  margin: 0.25rem !important;
   padding: 0 !important;
 }
 
@@ -55,10 +55,8 @@
 }
 
 .card-skills {
-  opacity: .5;
+  opacity: 0.5;
 }
-
-
 
 .projects-container {
   justify-self: center;
@@ -67,11 +65,8 @@
 
 @media only screen and (min-width: 48rem) {
   .card {
-    width: 25rem;
+    width: 22rem;
   }
-}
-
-@media only screen and (min-width: 52rem) {
   .projects-container {
     grid-template-columns: 1fr 1fr;
   }
@@ -81,16 +76,16 @@
   .projects-container {
     grid-template-columns: 1fr 1fr;
   }
-}
-
-@media only screen and (min-width: 75rem) {
-  .projects-container {
-    grid-template-columns: 1fr 1fr 1fr;
+  .card {
+    width: 30rem;
   }
 }
 
-@media only screen and (min-width: 82rem) {
+@media only screen and (min-width: 87rem) {
+  .projects-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   .card {
-    width: 28rem;
+    width: 25rem;
   }
 }
