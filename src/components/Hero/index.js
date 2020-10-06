@@ -40,7 +40,7 @@ function Hero() {
           <i className='fal fa-envelope'></i>
         </a>
         <a
-          href='./Joseph-Lynn-Resume-2020.pdf'
+          href='./joseph-lynn-resume.pdf'
           target='_blank'
           rel='noopener noreferrer'
           className='hero-social_link'
