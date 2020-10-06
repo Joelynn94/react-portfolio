@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #45A29E;
+  background-color: #45a29e;
 }
 
 .navbar-inner {
@@ -10,7 +10,7 @@
 
 .navbar-logo {
   margin: 1rem;
-  padding: .75rem;
+  padding: 0.75rem;
   align-self: center;
 }
 
@@ -28,7 +28,7 @@
 
 .navbar-item {
   display: inline-block;
-  padding: .75rem;
+  padding: 0.75rem;
 }
 
 .navbar-item:active {
@@ -42,7 +42,7 @@
 }
 
 .navbar-link {
-  padding: 1rem .15rem;
+  padding: 1rem 0.15rem;
   text-decoration: none;
   color: #ffffff;
 }
