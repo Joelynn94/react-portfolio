@@ -1,30 +1,21 @@
 const MenuItems = [
   {
-    name: 'home',
-    links: [
-      {
-        title: 'Home',
-        to: '/',
-      },
-    ],
+    title: 'Home',
+    path: '/home',
+    itemClass: 'navbar-item',
+    linkClass: 'navbar-link',
   },
   {
-    name: 'portfolio',
-    links: [
-      {
-        title: 'Portfolio',
-        to: '/portfolio',
-      },
-    ],
+    title: 'Portfolio',
+    path: '/portfolio',
+    itemClass: 'navbar-item',
+    linkClass: 'navbar-link',
   },
   {
-    name: 'contact',
-    links: [
-      {
-        title: 'Contact',
-        to: '/contact',
-      },
-    ],
+    title: 'Contact',
+    path: '/contact',
+    itemClass: 'navbar-item',
+    linkClass: 'navbar-link',
   },
 ]
 
