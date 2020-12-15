@@ -13,7 +13,7 @@ function Project({ title, image, desc, skills, link, github }) {
         <p className='card-skills'>{skills}</p>
         <div className='card-buttons'>
           <a href={link} rel='noopener noreferrer' target='_blank'>
-            <button className='btn btn-primary card-btn'>View Project</button>
+            <button className='btn btn-primary card-btn'>View Live</button>
           </a>
           <a href={github} rel='noopener noreferrer' target='_blank'>
             <button className='btn btn-secondary card-btn'>View Code</button>
