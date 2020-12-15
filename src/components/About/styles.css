@@ -1,5 +1,5 @@
 .about {
-  background-color: #F8FAFA;
+  background-color: #f8fafa;
   padding-top: 4em;
   padding-bottom: 4em;
 }
@@ -17,6 +17,7 @@
 }
 
 .about-para {
-  line-height: 1.75rem
+  line-height: 1.75rem;
+  max-width: 800px;
+  margin: 1em auto;
 }
-
