@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Navicon = () => {
+const NavIcon = ({ isOpen, toggle}) => {
   return (
-    <div className="nav-icon">
-      <i className="far fa-bars"></i>
+    <div className="nav-icon" onClick={() => toggle(!isOpen)}>
+      <i className={isOpen ? "far fa-times" : "far fa-bars"}></i>
     </div>
   )
 }
 
-export default Navicon
+export default NavIcon

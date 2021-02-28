@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 
-const Navlinks = () => {
+const NavLinks = () => {
   return (
-    <ul>
+    <ul className="navigation-ul">    
       <li>
         <Link to="/blog">Blog</Link>
       </li>
@@ -20,4 +20,4 @@ const Navlinks = () => {
   )
 }
 
-export default Navlinks
+export default NavLinks
