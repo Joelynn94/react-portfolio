@@ -1,13 +1,15 @@
 import React from 'react'
 import Logo from "./Logo"
+import Navicon from './Navicon';
 import Navlinks from './Navlinks';
 
 const Navbar = () => {
   return (
-    <div>
+    <nav className="navigation">
       <Logo />
+      <Navicon />
       <Navlinks />
-    </div>
+    </nav>
   )
 }
 
