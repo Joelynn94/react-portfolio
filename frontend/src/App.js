@@ -1,6 +1,15 @@
 import './App.css';
 import axios from 'axios';
 import { useEffect } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+
+import Navbar from './components/Navbar';
+import Home from './components/Home';
 
 function App() {
 
@@ -12,9 +21,16 @@ function App() {
 
 
   return (
-    <div className="App">
-      <h1>Portfolio goes here</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
