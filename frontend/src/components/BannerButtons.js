@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const BannerButtons = () => {
   return (
@@ -6,7 +6,7 @@ const BannerButtons = () => {
       <button className="banner-button">Explore Portfolio</button>
       <button className="banner-button">Contact Me</button>
     </div>
-  )
-}
+  );
+};
 
-export default BannerButtons
+export default BannerButtons;

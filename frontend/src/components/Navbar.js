@@ -1,21 +1,21 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
-import Logo from "./Logo"
-import Navicon from './NavIcon';
-import Navlinks from './NavLinks';
+import Logo from "./Logo";
+import NavIcon from './NavIcon';
+import NavLinks from './NavLinks';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
-  const toggle = () => setIsOpen(!isOpen)
+  const toggle = () => setIsOpen(!isOpen);
 
   return (
     <nav className="navigation">
       <Logo />
-      <Navicon toggle={toggle} isOpen={isOpen}/>
-      <Navlinks isOpen={isOpen}/>
+      <NavIcon toggle={toggle} isOpen={isOpen} />
+      <NavLinks isOpen={isOpen} />
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from "react-router-dom"
+import React from 'react';
+import { Link } from "react-router-dom";
 
 
 const BannerIcons = () => {
@@ -15,7 +15,7 @@ const BannerIcons = () => {
         <i className="fas fa-file-pdf"></i>
       </Link>
     </div>
-  )
-}
+  );
+};
 
-export default BannerIcons
+export default BannerIcons;

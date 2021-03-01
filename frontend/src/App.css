@@ -205,6 +205,7 @@ NAVIGATION STYLES
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -214,6 +215,23 @@ NAVIGATION STYLES
 
 .navigation-ul {
   display: none;
+}
+
+.navigation-mobile {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--secondary-color);
+}
+
+.navigation-mobile > a {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
 }
 
 .nav-icon {
@@ -237,7 +255,7 @@ NAVIGATION STYLES
     display: none;
   }
 
-  .navigation-ul > li {
+  .navigation-ul > a {
     margin-left: 1rem;
   }
 }
@@ -247,7 +265,7 @@ BANNER STYLES
 ***************/
 .banner {
   background-image: url("./banner-background.png");
-  height: 100vh; /* You must set a specified height */
+  height: 50vh; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;

@@ -1,10 +1,10 @@
-import React from 'react'
-import { Link } from "react-router-dom"
+import React from 'react';
+import { Link } from "react-router-dom";
 
 const MobileLinks = () => {
   return (
     <div className="mobile-navigation">
-      <ul className="mobile-ul">    
+      <ul className="mobile-ul">
         <li>
           <Link to="/blog">Blog</Link>
         </li>
@@ -19,7 +19,7 @@ const MobileLinks = () => {
         </li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default MobileLinks
+export default MobileLinks;

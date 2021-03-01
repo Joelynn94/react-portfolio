@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import BannerButtons from './BannerButtons';
 import BannerIcons from './BannerIcons';
 
@@ -10,7 +10,7 @@ const Banner = () => {
       <BannerIcons />
       <BannerButtons />
     </div>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;

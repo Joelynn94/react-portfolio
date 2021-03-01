@@ -1,23 +1,22 @@
-import React from 'react'
-import { Link } from "react-router-dom"
+import React from 'react';
+import { Link } from "react-router-dom";
 
-const NavLinks = () => {
+const NavLinks = ({ isOpen }) => {
   return (
-    <ul className="navigation-ul">    
-      <li>
-        <Link to="/blog">Blog</Link>
-      </li>
-      <li>
-        <Link to="/skills">Skills</Link>
-      </li>
-      <li>
-        <Link to="/blog">Portfolio</Link>
-      </li>
-      <li>
-        <Link to="/blog">Contact</Link>
-      </li>
-    </ul>
-  )
-}
+    <ul className={isOpen ? "navigation-mobile" : "navigation-ul"}>
 
-export default NavLinks
+      <Link to="/blog">Blog</Link>
+
+
+      <Link to="/skills">Skills</Link>
+
+
+      <Link to="/blog">Portfolio</Link>
+
+      <Link to="/blog">Contact</Link>
+
+    </ul>
+  );
+};
+
+export default NavLinks;
