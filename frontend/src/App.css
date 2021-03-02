@@ -161,8 +161,10 @@ GENERAL STYLES
 }
 
 .container {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  width: 90%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 body {
@@ -216,7 +218,7 @@ h3 {
 }
 
 section {
-  margin: 3rem 0 3rem 0;
+  margin: 4rem 0 4rem 0;
 }
 
 .btn {
@@ -263,17 +265,12 @@ section {
 /***************  
 NAVIGATION STYLES
 ***************/
-
-.navigation > li {
-  font-size: 2rem;
-}
-
 .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1rem 2rem 1rem 2rem;
 }
 
 .logo {
@@ -331,17 +328,21 @@ NAVIGATION STYLES
 /***************  
 BANNER STYLES
 ***************/
-.banner {
+#banner {
   background-image: url("./images/banner-background.png");
   height: 60vh; 
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
+}
 
+.banner-inner {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .banner-heading {
@@ -384,7 +385,6 @@ BANNER STYLES
 ABOUT STYLES
 ***************/
 #about {
-  margin: 5rem 0 5rem 0;
   padding: 5rem 0 5rem 0;
 }
 
@@ -396,7 +396,6 @@ ABOUT STYLES
 SKILLS STYLES
 ***************/
 #skills {
-  margin: 5rem 0 5rem 0;
   padding: 5rem 0 5rem 0;
 }
 

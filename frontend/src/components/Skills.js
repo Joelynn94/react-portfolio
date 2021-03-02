@@ -22,9 +22,9 @@ const Skills = () => {
         </div>
         <h3>Misc. Technologies</h3>
         <div className="text-center">
-          <i class="fab fa-git"></i>
-          <i class="fab fa-npm"></i>
-          <i class="fab fa-gulp"></i>
+          <i className="fab fa-git"></i>
+          <i className="fab fa-npm"></i>
+          <i className="fab fa-gulp"></i>
           <img src="./images/webpack.png" alt="" />
         </div>
       </div>
