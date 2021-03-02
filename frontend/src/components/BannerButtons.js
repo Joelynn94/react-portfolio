@@ -3,8 +3,8 @@ import React from 'react';
 const BannerButtons = () => {
   return (
     <div className="banner-buttons">
-      <button className="banner-button">Explore Portfolio</button>
-      <button className="banner-button">Contact Me</button>
+      <button className="btn btn-primary">Explore Portfolio</button>
+      <button className="btn btn-secondary">Contact Me</button>
     </div>
   );
 };

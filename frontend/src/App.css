@@ -1,6 +1,10 @@
 /***************  
 CSS RESET
 ***************/
+* {
+  box-sizing: border-box;
+}
+
 html,
 body,
 div,
@@ -131,10 +135,6 @@ a {
   color: var(--white-text-color);
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 li {
   list-style: none;
 }
@@ -160,6 +160,11 @@ GENERAL STYLES
   margin-left: auto;
 }
 
+.container {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 body {
   background-color: var(--main-bg-color);
   color: var(--body-text-color);
@@ -171,7 +176,7 @@ body {
 h1 {
   color: var(--white-text-color);
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 3.5rem;
   font-weight: bold;
 }
@@ -179,7 +184,7 @@ h1 {
 h2 {
   color: var(--white-text-color);
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 3.44;
   font-weight: 700;
 }
@@ -187,9 +192,72 @@ h2 {
 h3 {
   color: var(--white-text-color);
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 2.75rem;
   font-weight: 500;
+}
+
+@media (min-width: 768px) {
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+section {
+  margin: 3rem 0 3rem 0;
+}
+
+.btn {
+  border: none;
+  padding: .8rem 1.5rem;
+  margin: 0 1rem 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btn-primary:hover {
+  border: 2px solid var(--primary-color);
+  color: var(--white-text-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.btn-secondary:hover {
+  border: 2px solid var(--secondary-color);
+  color: var(--white-text-color);
+}
+
+.text-center {
+  text-align: center;
 }
 
 /***************  
@@ -201,11 +269,11 @@ NAVIGATION STYLES
 }
 
 .navigation {
-  padding: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding: 1rem 3rem 1rem 3rem;
 }
 
 .logo {
@@ -264,10 +332,10 @@ NAVIGATION STYLES
 BANNER STYLES
 ***************/
 .banner {
-  background-image: url("./banner-background.png");
-  height: 50vh; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-image: url("./images/banner-background.png");
+  height: 60vh; 
+  background-position: center; 
+  background-repeat: no-repeat; 
   background-size: cover;
 
   display: flex;
@@ -282,14 +350,12 @@ BANNER STYLES
 }
 
 .banner-subheading {
-  text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   max-width: 30rem;
 }
 
 .banner-icons {
-  width: 30rem;
-  height: 3.5rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -303,10 +369,49 @@ BANNER STYLES
   margin-right: 1rem;
 }
 
-/* .fas,
-.fa-github-square,
-.fa-linkedin,
-.fa-file-pdf {
-  max-height: 3.5rem;
-  max-width: 3.5rem;
-} */
+.unique-icon {
+  font-size: 2.7rem;
+}
+
+.banner-buttons {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/***************  
+ABOUT STYLES
+***************/
+#about {
+  margin: 5rem 0 5rem 0;
+  padding: 5rem 0 5rem 0;
+}
+
+#about > div > p {
+  margin-bottom: 2rem;
+}
+
+/***************  
+SKILLS STYLES
+***************/
+#skills {
+  margin: 5rem 0 5rem 0;
+  padding: 5rem 0 5rem 0;
+}
+
+#skills > .container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0 3rem 0;
+}
+
+#skills > .container > div > .fab {
+  margin: 0 1rem 0 1rem;
+  font-size: 3.18rem;
+}
+
+#skills > .container > div > img {
+  margin: 0 1rem 0 1rem;
+}

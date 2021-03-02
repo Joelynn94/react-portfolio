@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 const MobileLinks = () => {
+
   return (
     <div className="mobile-navigation">
       <ul className="mobile-ul">
