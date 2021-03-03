@@ -7,8 +7,8 @@ const NavLinks = ({ isOpen }) => {
     <ul className={isOpen ? "navigation-mobile" : "navigation-ul"}>
       <Link to="/blog">Blog</Link>
       <Link to="/skills">Skills</Link>
-      <Link to="/blog">Portfolio</Link>
-      <Link to="/blog">Contact</Link>
+      <Link to="/portfolio">Portfolio</Link>
+      <Link to="/contact">Contact</Link>
     </ul>
   );
 };

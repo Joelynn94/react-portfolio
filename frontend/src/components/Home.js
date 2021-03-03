@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About';
 import Banner from './Banner';
+import Portfolio from './Portfolio';
 import Skills from './Skills';
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <main className="container">
         <About />
         <Skills />
+        <Portfolio />
       </main>
     </>
   );
