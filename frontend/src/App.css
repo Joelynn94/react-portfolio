@@ -462,8 +462,12 @@ PORTFOLIO STYLES
   padding: 5rem 0 5rem 0;
 }
 
-.portfolio-card {
+.portfolio-wrapper {
   display: grid;
+  gap: 4rem 1rem;
+}
+
+.portfolio-card {
   box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.5);
   transition: 0.3s;
   border-radius: 5px;

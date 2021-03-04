@@ -17,7 +17,11 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <h2>Portfolio</h2>
-      {projects && <PortfolioCard projects={projects} />}
+      <div className="portfolio-wrapper">
+        {projects && projects.map((project, index) => (
+          <PortfolioCard project={project} key={index} />
+        ))}
+      </div>
     </section>
   );
 };
