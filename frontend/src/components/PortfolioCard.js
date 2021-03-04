@@ -12,13 +12,15 @@ const PortfolioCard = ({ project }) => {
         <div className="portfolio-body">
           <h3>{project.title}</h3>
           <p>{project.description}</p>
-          <p>{project.skills}</p>
-          <button className="btn btn-primary">
-            <a href={project.live_link}>Live Link</a>
-          </button>
-          <button className="btn btn-secondary">
-            <a href={project.github_link}>GitHub Link</a>
-          </button>
+          <p><strong>Built with:</strong> {project.skills}</p>
+          <div className="portfolio-cta">
+            <a className="link-primary" href={project.live_link} target="_blank" rel="noreferrer">
+              <button className="btn btn-primary">Live Link</button>
+            </a>
+            <a href={project.github_link} target="_blank" rel="noreferrer">
+              <button className="btn btn-tertiary">GitHub Link</button>
+            </a>
+          </div>
         </div>
       </div>
     </>
