@@ -1,14 +1,13 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 
 const NavLinks = ({ isOpen }) => {
 
   return (
     <ul className={isOpen ? "navigation-mobile" : "navigation-ul"}>
-      <Link to="/blog">Blog</Link>
-      <Link to="/skills">Skills</Link>
-      <Link to="/portfolio">Portfolio</Link>
-      <Link to="/contact">Contact</Link>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </ul>
   );
 };

@@ -23,7 +23,7 @@ function App() {
   return (
     <Router>
       <div className="main-container">
-      <Navbar />
+        <Navbar />
         <Switch>
           <Route exact path="/">
             <Home />

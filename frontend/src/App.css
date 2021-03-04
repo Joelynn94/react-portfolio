@@ -240,6 +240,7 @@ img {
   cursor: pointer;
   border-radius: 5px;
   border: 2px solid transparent;
+  transition: 0.6s;
 }
 
 .btn:hover {
@@ -289,7 +290,7 @@ NAVIGATION STYLES
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1rem;
 }
 
 .logo {
@@ -492,8 +493,8 @@ PORTFOLIO STYLES
 
 .portfolio-card {
   background-color: var(--secondary-color);
-  box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.5);
-  transition: 0.3s;
+  box-shadow: .5rem .5rem 1rem rgba(0,0,0,0.5);
+  transition: 0.6s;
   border-radius: 5px;
   max-width: 30rem;
 }
@@ -560,7 +561,9 @@ PORTFOLIO STYLES
   }
 
   .portfolio-img > img {
+    border-radius: 5px;
     height: 23rem;
+    box-shadow: .5rem .5rem 1rem var(--main-bg-color);
   }
 
   .portfolio-body {

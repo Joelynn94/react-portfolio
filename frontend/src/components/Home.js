@@ -11,8 +11,8 @@ const Home = () => {
         <Banner />
       </header>
       <main className="container">
-        <About />
         <Skills />
+        <About />
         <Portfolio />
       </main>
     </>

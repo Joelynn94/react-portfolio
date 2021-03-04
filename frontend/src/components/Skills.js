@@ -2,8 +2,10 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <section id="skills">
-      <h2>Technologies I've worked with</h2>
+    <section id="skills" >
+      <a href="#skills">
+        <h2>Technologies I've worked with</h2>
+      </a>
       <h3>Front-end Technologies</h3>
       <div className="text-center">
         <i className="fab fa-html5"></i>

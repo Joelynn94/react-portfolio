@@ -16,7 +16,9 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h2>Portfolio</h2>
+      <a href="#portfolio">
+        <h2>Portfolio</h2>
+      </a>
       <div className="portfolio-wrapper">
         {projects && projects.map((project, index) => (
           <PortfolioCard project={project} key={index} />
