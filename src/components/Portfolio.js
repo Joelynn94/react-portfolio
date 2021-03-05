@@ -9,7 +9,7 @@ const Portfolio = () => {
 
   useEffect(() => {
     setLoading(true);
-    axios.get('http://localhost:1337/projects')
+    axios.get('https://sparky-portfolio-backend.herokuapp.com/projects')
       .then(response => {
         setProjects(response.data);
         setLoading(false);
