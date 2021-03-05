@@ -1,22 +1,35 @@
-import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Home from './pages/Home'
-import Portfolio from './pages/Portfolio'
-import Contact from './pages/Contact'
-import './App.css'
+import './App.css';
+import axios from 'axios';
+import { useEffect } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+
+import Navbar from './components/Navbar';
+import Home from './components/Home';
 
 function App() {
+
+  useEffect(() => {
+    axios.get('http://localhost:1337/projects').then(response => {
+      console.log(response.data);
+    });
+  }, []);
+
+
   return (
     <Router>
-      <Navbar />
-      <div className="App">
-        <Route exact path="/" component={Home} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} />
+      <div className="main-container">
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+        </Switch>
       </div>
-      <Footer />
     </Router>
   );
 }
