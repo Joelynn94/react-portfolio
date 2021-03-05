@@ -7,7 +7,7 @@ const PortfolioCard = ({ project }) => {
     <>
       <div className="portfolio-card text-center">
         <div className="portfolio-img">
-          <img src={`http://localhost:1337${project.project_img.url}`} alt={project.project_img.name} />
+          <img src={`https://sparky-portfolio-backend.herokuapp.com${project.project_img.url}`} alt={project.project_img.name} />
         </div>
         <div className="portfolio-body">
           <h3>{project.title}</h3>
