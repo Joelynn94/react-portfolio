@@ -1,15 +1,14 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 
 const BannerButtons = () => {
   return (
     <div className="banner-buttons">
-      <Link to="/">
+      <a href="#portfolio">
         <button className="btn btn-primary">Explore Portfolio</button>
-      </Link>
-      <Link to="/">
+      </a>
+      <a href="#contact">
         <button className="btn btn-secondary">Contact Me</button>
-      </Link>
+      </a>
     </div>
   );
 };
