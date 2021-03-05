@@ -17,7 +17,7 @@ const Skills = () => {
       <h3>Back-end Technologies</h3>
       <div className="text-center">
         <i className="fab fa-node"></i>
-        <img src="./images/mysql.png" alt="" />
+        <img className="text-center" src="./images/mysql.png" alt="" />
         <img src="./images/mongodb.png" alt="" />
         <img src="./images/postgresql.png" alt="" />
       </div>
