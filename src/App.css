@@ -444,6 +444,7 @@ SKILLS STYLES
   align-self: center;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 #skills > div > img {
