@@ -12,7 +12,7 @@ const Home = () => {
       <header>
         <Banner />
       </header>
-      <main className="container">
+      <main>
         <Skills />
         <About />
         <Portfolio />
