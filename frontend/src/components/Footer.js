@@ -4,7 +4,8 @@ const Footer = () => {
 
   return (
     <footer id="footer">
-      <p className="text-center">&copy; Designed and Developed by Joseph Lynn</p>
+      <img src="./images/banner-background.png" alt="" />
+      <p className="text-center text-overlay">&copy; Designed and Developed by Joseph Lynn</p>
     </footer>
   );
 };

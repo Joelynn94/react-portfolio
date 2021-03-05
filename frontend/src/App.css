@@ -659,25 +659,23 @@ FOOTER STYLES
   margin: 8rem 0 0 0;
   padding: 5rem 0 5rem 0;
 
-  /* background-image: url("./images/banner-background.png");
   height: 35vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#footer::before {
-  content: "";
+#footer > img {
+  transform: rotate(220deg);
+}
+
+.text-overlay {
   position: absolute;
-  width: 198%;
-  height: 215%;
-  top: -50%;
-  left: -50%;
-  z-index: -1;
-  background: url("./images/banner-background.png");
-  transform: rotate(29deg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
