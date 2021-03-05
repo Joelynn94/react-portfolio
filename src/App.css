@@ -415,6 +415,10 @@ BANNER STYLES
   align-items: center;
 }
 
+header {
+  margin-bottom: 4rem;
+}
+
 /***************  
 ABOUT STYLES
 ***************/

@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <section id="skills" >
       <a href="#skills">
-        <h2>Technologies I know</h2>
+        <h2>Tech Skills</h2>
       </a>
       <h3>Front-end Technologies</h3>
       <div className="text-center">
