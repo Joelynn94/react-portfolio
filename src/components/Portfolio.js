@@ -9,8 +9,9 @@ const Portfolio = () => {
 
   useEffect(() => {
     setLoading(true);
-    axios.get('https://sparky-portfolio-backend.herokuapp.com/projects')
+    axios.get("http://localhost:3000/projects.json")
       .then(response => {
+        console.log(response.data);
         setProjects(response.data);
         setLoading(false);
       });
@@ -24,8 +25,8 @@ const Portfolio = () => {
       </a>
       {loading && <Spinner />}
       <div className="portfolio-wrapper">
-        {projects && projects.map((project, index) => (
-          <PortfolioCard project={project} key={index} />
+        {projects && projects.map((project) => (
+          <PortfolioCard title={project.title} image={project.image} desc={project.desc} skills={project.skills} link={project.link} github={project.link} key={project.id} />
         ))}
       </div>
     </section>

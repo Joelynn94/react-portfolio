@@ -1,23 +1,22 @@
 import React from 'react';
 
-const PortfolioCard = ({ project }) => {
-  console.log(project);
+const PortfolioCard = ({ title, image, desc, skills, link, github }) => {
 
   return (
     <>
       <div className="portfolio-card text-center">
         <div className="portfolio-img">
-          <img src={`https://sparky-portfolio-backend.herokuapp.com${project.project_img.url}`} alt={project.project_img.name} />
+          <img src={image} alt={title} />
         </div>
         <div className="portfolio-body">
-          <h3>{project.title}</h3>
-          <p>{project.description}</p>
-          <p><strong>Built with:</strong> {project.skills}</p>
+          <h3>{title}</h3>
+          <p>{desc}</p>
+          <p><strong>Built with:</strong> {skills}</p>
           <div className="portfolio-cta">
-            <a className="link-primary" href={project.live_link} target="_blank" rel="noreferrer">
+            <a className="link-primary" href={link} target="_blank" rel="noreferrer">
               <button className="btn btn-primary">Live Link</button>
             </a>
-            <a href={project.github_link} target="_blank" rel="noreferrer">
+            <a href={github} target="_blank" rel="noreferrer">
               <button className="btn btn-tertiary">GitHub Link</button>
             </a>
           </div>
