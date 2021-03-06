@@ -9,7 +9,7 @@ const Portfolio = () => {
 
   useEffect(() => {
     setLoading(true);
-    axios.get("http://localhost:3000/projects.json")
+    axios.get("https://www.josephlynn.com/projects.json")
       .then(response => {
         console.log(response.data);
         setProjects(response.data);
